@@ -210,6 +210,14 @@ Machine-readable references are in [references.bib](references.bib) and [CITATIO
 
 ## License and contributions
 
-No repository-level license was present in the reviewed WaterNILM commit. This update does not invent an open-source license or relicense the upstream notebooks, derived code, annotations, or papers. The supplied thesis retains its original copyright notice. Dataset and publisher terms remain separate from software terms.
+The WaterNILM project software is licensed under the **BSD 3-Clause License** ([LICENSE](LICENSE); SPDX identifier: `BSD-3-Clause`). This permits academic and commercial use, modification, and redistribution subject to retaining the required notices and disclaimer. The authors' and contributors' names may not be used to imply endorsement without prior written permission.
+
+The software license applies to the project's Python code and original notebook code, except where separate terms or third-party notices apply. It does **not** relicense:
+
+- **Research data and annotations**, including `archive/DWW.csv` and externally obtained AMPds data. Their applicable dataset and annotation terms remain in effect.
+- **Papers and theses**, including `docs/papers/Thesis_BEllert_MSc.pdf`. These retain their existing copyright and publication terms.
+- **Third-party code or dependencies**. Their respective licenses and notices continue to apply.
+
+Please cite the relevant research using the references above and `CITATION.cff`. Scholarly citation is requested separately from the BSD license conditions.
 
 When contributing, keep scientific changes separate from structural cleanup, retain attribution, document preprocessing and units, and add tests for behavior changes. See [the review findings and remaining work](docs/PROPOSED_CHANGES.md) for the remaining reproducibility and maintenance work.
