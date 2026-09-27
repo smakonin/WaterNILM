@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the water-disaggregation paper below, the thesis, and applicable electricity-method and dataset references listed in README.md."
+type: software
+title: WaterNILM
+authors:
+  - name: WaterNILM contributors
+repository-code: "https://github.com/smakonin/WaterNILM"
+preferred-citation:
+  type: conference-paper
+  title: "Appliance Water Disaggregation via Non-intrusive Load Monitoring (NILM)"
+  authors:
+    - family-names: Ellert
+      given-names: Bradley
+    - family-names: Makonin
+      given-names: Stephen
+    - family-names: Popowich
+      given-names: Fred
+  collection-title: "Smart City 360°"
+  year: 2016
+  volume: 166
+  start: 455
+  end: 467
+  doi: "10.1007/978-3-319-33681-7_38"
+  url: "https://makonin.com/Publications/papers/ellert2015appliance.pdf"
