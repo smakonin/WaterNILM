@@ -4,7 +4,7 @@
 
 1. Replace the two-line README with the method overview, honest scope, notebook inventory, installation/demo commands, data contract, AMPds guidance, reproducibility limits, and complete research attribution.
 2. Preserve all 13 original files unchanged under `archive/`, including the original README, and explain the new layout and external notebook paths.
-3. Add DOI and working author-PDF links for the water paper, SSHMM_NILM paper and AMPds2 paper; include the supplied thesis PDF and a citation with its unverified DOI explicitly noted. Add BibTeX and CITATION.cff without inventing software-author contributions or a software license.
+3. Add DOI and working author-PDF links for the water paper, SSHMM_NILM paper and AMPds2 paper; include the supplied thesis PDF and a citation with its unverified DOI explicitly noted. Add BibTeX and CITATION.cff without inventing software-author contributions. The project software is now licensed under BSD-3-Clause; data, papers and third-party material retain separate terms.
 4. Extract the core notebook workflow into `model.py`, `data.py` and a command-line entry point. Use descriptive names, docstrings, functions with explicit inputs, named units, local state and JSON model files. The core needs only Python's standard library.
 5. Validate timestamps, pulse increments, states and activity intervals. Select labels by timestamp. Keep labels out of training, require held-out prediction periods and protect existing output files.
 6. Provide log-domain compatibility decoding and a separately identified exact decoder. Test the extraction against notebook functions and test exact inference against exhaustive enumeration.
@@ -41,7 +41,7 @@ The modern Python workflow and documentation live at the root; `archive/` preser
 | --- | --- | --- |
 | High | Recover and pin the original PMF/state extraction dependency and data release. | Known source revision and saved boundaries; verify state IDs against notebook outputs. |
 | High | Reproduce the 185-activity, ten-fold dishwasher experiment. | Stored activity timestamps/folds; verified DWW alignment; original metrics and separate legacy/exact results. |
-| High | Confirm repository software and annotation licensing with the rights holders. | Explicit license files and attribution terms; do not reuse a paper/dataset license for code by inference. |
+| High | Document applicable annotation terms and retain third-party notices. | Explicit data attribution/reuse terms; the root BSD-3-Clause software license does not relicense data, papers or third-party material. |
 | Medium | Turn figure notebooks into short, named examples importing package functions. | Restart-and-run-all success in a pinned environment, figures checked against documented inputs. |
 | Medium | Add descriptive, maintained example notebooks; retain the original `archive/` snapshot. | New examples run from a clean kernel and refer to the preserved originals. |
 | Medium | Add CI on the supported Python versions. | Unit tests and a packaged CLI smoke test run automatically on proposed changes. |
